@@ -1,2 +1,224 @@
-# new_repo
-Coderhouse repo
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta name="keywords" content="SEO, HTML, CSS, WEBSITE, DEVELOPER, AUTOS">
+    <meta name="description" content="Los mejores autos del mundo">
+    <link rel="stylesheet" href="./PROYECTO/CSS/styles.css">
+    <link rel="stylesheet" href="SASS/css/style.css">
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link href = "https: //fonts.googleapis.com/css2? family = Style + Script & display = swap "rel =" stylesheet ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    
+    <title>AutosTunning</title>
+</head>
+<body>
+    <header >
+      <h1 , id="CarMeet">Autos Tunning</h1>          
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./Cuenta.html">Cuenta</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./Proyecto.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./AutosTunning.html">AutosTunning</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Venta Autos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Comprar</a></li>
+                <li><a class="dropdown-item" href="#">Vender</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="./Proyecto-Venta.html">Autos</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">:)</a>
+            </li>
+          </ul>
+          
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+<div class="padre"> 
+<div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <p class="AutosTunning"><img src="./PROYECTO/Imagenes/ferrari1.jpg" class="card-img-top" alt="..."></p>
+        <div class="card-body">
+          <h5 class="card-title">Ferrari 458</h5>
+          <p class="card-text">El 458 Italia lleva un motor 4.5 V8 atmosférico con inyección directa de gasolina que da 570 CV a 9.000 rpm. Tiene una potencia específica alta: 127 CV/l. El par máximo también es alto para tratarse de un motor sin sobrealimentación: 540 Nm a 6000 rpm —Ferrari asegura que hay disponibles 430 Nm desde 3250 rpm.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <p class="AutosTunning"> <img src="./PROYECTO/Imagenes/lambo.jpg" class="card-img-top" alt="..."></p>
+        <div class="card-body">
+          <h5 class="card-title">Lamborghini Aventador</h5>
+          <p class="card-text">El Aventador monta un motor V12 naturalmente aspirado de 6498 cm³ (6,5 L; 396,5 plg³), que eroga una potencia máxima de 700 CV (690 HP; 515 kW) a las 8250 rpm y un par máximo de 690 N·m (509 lb·pie) a las 5500 rpm. Su velocidad máxima es de 350 km/h (217 mph) con una aceleración de 0 a 100 km/h (62 mph) en 2,9 segundos estimada por la fábrica, siendo confirmada según una prueba realizada por la revista francesa Sport Auto, aunque con una aceleración de 0 a 100 km/h (62 mph) en 2,8 segundos.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <p class="AutosTunning"><img src="./PROYECTO/Imagenes/maserati.jpg" class="card-img-top" alt="..."></p>
+        <div class="card-body">
+          <h5 class="card-title">Maserati MC20 </h5>
+          <p class="card-text">El Maserati MC20 ofrece conectividad a través del programa Maserati Connect. Incluye navegación conectada, Alexa integrada y punto de conexión wifi. El motor que incorpora el Maserati MC20 es un V6 biturbo de 3.0 litros capaz de desarrollar una potencia de 630 caballos y un par máximo de 730 Newton metro.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <p class="AutosTunning"> <img src="./PROYECTO/Imagenes/fondoooo.jpg" class="card-img-top" alt="..."></p>
+        <div class="card-body">
+          <h5 class="card-title">Ford Mustang GT</h5>
+          <p class="card-text">El Ford Mustang está animado por tres motores diferentes: un cuatro cilindros, el 2.3 Ecoboost de 290 CV, muy potente y enérgico, y un excelso bloque 5.0 V8 de aspiración atmosférica con 450 CV en el caso del Mustang GT y 460 CV en la variante Mach 1, uno de los mejores motores que se pueden adquirir en la actualidad.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<hr id="HR">  
+
+
+<div class="card"> 
+
+  <div class="padreUno">
+    <button type="button" class="btn-close" aria-label="Close"></button>
+  <div class="card" aria-hidden="true">
+    <img src="./PROYECTO/Imagenes/e36aa.jpg" class="card-img-top" alt="..."> 
+    <div class="card-body">
+      <h5 class="card-title placeholder-glow">
+        <h3>BMW E36</h3>
+        <P>La carrocería E36 fue la base para el Serie 3 entre 1991 hasta el año 1999. Sucesor del E30 y sustituido por el E46 desde 1999, sin embargo debido a que los coupes y convertibles todavía estaban siendo desarrollados, esta carrocería se siguió produciendo en el año 1999.</P>
+      </h5>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          Acciones
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="https://es.wikipedia.org/wiki/BMW_E36#:~:text=La%20carrocer%C3%ADa%20E36%20fue%20la,produciendo%20en%20el%20a%C3%B1o%201999.">Informacion</a></li>
+          <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=3Y8Go60wWTM">Youtube</a></li>
+          <li><a class="dropdown-item" href="./Proyecto-Depositar.html">Comprar</a></li>
+        </ul>
+        <div class="spinner-border" role="status">
+          <span class="visually-hidden">Loading...</span>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<hr id="HR">
+
+<div id="fondos", style="background-image: url(./PROYECTO/Imagenes/a1.png);">
+
+    <br>
+    <h4 id="estilos">Filtros</h4>
+    <br>
+    <ul id="ingresar", style="background-image: url(./PROYECTO/Imagenes/fondo16.jpg);">
+        <li>Precio
+            <ul id="tituloUno">
+                <li>$500.000</li>
+                <li>$1.500.000</li>
+            </ul>
+        </li>
+        <li>Año 
+        <ul id="tituloUno">
+            <li>2012</li>
+            <li>2019</li>
+        </ul>
+        </li>
+        <li>Kilometraje
+            <ul id="tituloUno">
+                <li>0km</li>
+                <li>1 a 1000 km</li>
+                <li>10.000 a 50.000 km</li>
+            </ul>
+        </li>Combustible
+        <li>Diesel</li>
+        <li>Nafta</li>
+        <li>Eléctrico</li>
+    </ul>
+    <br>
+
+</div>
+<hr id="HR">
+<br>
+
+<DIV class="containerUno">
+    <div class="container__item"> <button class="container__btn--Informacion"><p>Semáforo</p></button> </div>
+    <div class="container__item container__item--yellow">  </div>
+    <div class="container__item container__item--green">  </div>
+</DIV>
+
+<div>
+  <p class="auto1">Auto1</p>
+  <p class="auto2">Auto2</p>
+  <p class="auto3">Auto3</p>
+</div>
+
+
+
+   <p>.</p>
+    <p id="menu"></li><a href="Proyecto.html">Menu</a></p>
+
+
+</div>
+
+
+
+
+<footer>
+<div id="comentarios">
+
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+      
+</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<script src="jd/wow.min.js" ></script>
+<script>
+    new WOW().init();
+</script>
+</body>
+</html>
