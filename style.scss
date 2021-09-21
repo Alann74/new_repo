@@ -514,6 +514,17 @@ $color:colorrr;
     width: 1700px;
    }
   
+   @media screen and (max-width:1400px) { 
+    .padre { 
+      width: 1000px;
+      max-width: 100%;
+     }
+    }
+     @media screen and (max-width:1400px) { 
+      .padre:hover { 
+        width: 1000px;
+       }
+      }  
   
   .padreUno { 
     margin-left: 40px;
@@ -589,3 +600,4 @@ $color:colorrr;
     .autos { 
       background-color: #5A5A5D;
      }
+  
