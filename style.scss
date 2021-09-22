@@ -186,15 +186,16 @@ $color:colorrr;
     background-size: contain;
     border: rgb(0, 0, 0) 5px solid;
     margin-right: 50px;
-    background: linear-gradient(to left, rgb(255, 255, 255), rgba(0, 0, 0, 0.562)); 
+    background: linear-gradient(to left, rgb(4, 0, 255), rgba(0, 0, 0, 0.562)); 
     transition: 2s all;
+    color: white;
   }
 
   .columna:hover {
     -webkit-transform: rotate(360deg); 
     -ms-transform: rotate(360deg);      
     transform: rotate(360deg);
-    background: linear-gradient(to right, rgb(255, 255, 255), rgba(0, 0, 0, 0.562)); 
+    background: linear-gradient(to right, rgb(4, 0, 255), rgba(0, 0, 0, 0.562)); 
 }
 
   
@@ -258,8 +259,8 @@ $color:colorrr;
     
   }
   
-  #rueda { 
-    max-width: 4%; 
+  .rueda { 
+    max-width: 8%; 
   }
   
   
@@ -537,10 +538,8 @@ $color:colorrr;
     }
   
 .carta { 
-    width: 1200px;
+    width: 1400px;
     margin-left: 30px;
-    //   background-color: #D62100;
-    background: linear-gradient(to top, #D62100, rgb(0, 0, 0), white);
     text-align: center;
     padding: 30px;
     }

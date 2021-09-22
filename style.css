@@ -164,14 +164,15 @@ header h2 {
   background-size: contain;
   border: black 5px solid;
   margin-right: 50px;
-  background: linear-gradient(to left, white, rgba(0, 0, 0, 0.562));
-  transition: 2s all; }
+  background: linear-gradient(to left, #0400ff, rgba(0, 0, 0, 0.562));
+  transition: 2s all;
+  color: white; }
 
 .columna:hover {
   -webkit-transform: rotate(360deg);
   -ms-transform: rotate(360deg);
   transform: rotate(360deg);
-  background: linear-gradient(to right, white, rgba(0, 0, 0, 0.562)); }
+  background: linear-gradient(to right, #0400ff, rgba(0, 0, 0, 0.562)); }
 
 #Suscribirse {
   text-transform: uppercase;
@@ -217,8 +218,8 @@ header h2 {
 .autos {
   text-align: center; }
 
-#rueda {
-  max-width: 4%; }
+.rueda {
+  max-width: 8%; }
 
 #estilos {
   text-transform: uppercase;
@@ -425,9 +426,8 @@ footer {
   background: linear-gradient(to bottom, white, #002280); }
 
 .carta {
-  width: 1200px;
+  width: 1400px;
   margin-left: 30px;
-  background: linear-gradient(to top, #D62100, black, white);
   text-align: center;
   padding: 30px; }
 
